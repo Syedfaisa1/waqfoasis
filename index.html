@@ -121,7 +121,7 @@
             border: none;
             
             /* CHANGE: 1.6 zooms in by 60%, pushing the top/bottom bars out of view */
-            transform: scale(1.6);
+            transform: scale(1.1);
             transform-origin: center center;
             
             /* Optional: Change to 'auto' if you want users to be able to click/pause the video */
@@ -135,14 +135,14 @@
         .payment-card {
             background: var(--white);
             border-radius: var(--card-radius);
-            padding: 14px 28px;
+            padding: 14px 40px;
             display: flex;
             align-items: center;
             justify-content: flex-start;
             
             /* Reduced gap to bring icons and text closer */
             gap: 20px; 
-            height: 150px;
+            height: 190px;
             flex-shrink: 0;
             box-shadow: var(--shadow);
         }
@@ -185,7 +185,7 @@
         .zelle-icon svg { width: 28px; height: 28px; }
 
         .pay-email {
-            font-size: 3.2rem;
+            font-size: 3.8rem;
             font-weight: 800;
             color: var(--text-dark);
             letter-spacing: -0.3px;
@@ -310,10 +310,10 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             position: relative;
-            border: 3px solid white;
+            /* border: 3px solid white; */
         }
-.donation-card iframe {
-            width: 100%;
+        .donation-card iframe {
+            width: 104%;
             height: 120%;
             border: none;
             
@@ -430,8 +430,8 @@
                     <div></div>
                 </div>
                 <div style="display: flex; flex-direction: column; justify-content: center;">
-                    <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.3rem; color: var(--text-muted); line-height: 1.1;">Paypal or Zelle</span>
-                    <div class="pay-email" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: -8px; font-weight: 700;">treasurer@iciwaqf.org</div>
+                    <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.4rem; color: var(--text-muted); line-height: 1.1;">Paypal or Zelle</span>
+                    <div class="pay-email" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: -10px; font-weight: 700;">treasurer@iciwaqf.org</div>
                 </div>
             </div>
 
